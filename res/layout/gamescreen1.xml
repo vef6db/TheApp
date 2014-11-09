@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/samplebackgroundgrid"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/upArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="70dp"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/downArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down"
+         android:layout_gravity="bottom|center"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/leftArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right"
+         android:layout_gravity="bottom|right"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left"
+         android:layout_gravity="bottom|left"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</FrameLayout>
+
+
